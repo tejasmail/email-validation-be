@@ -1,0 +1,22 @@
+{
+  "name": "email-validation-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "rxjs": "^7.8.1",
+    "typescript": "^5.4.4"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17"
+  }
+}
